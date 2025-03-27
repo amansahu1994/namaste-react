@@ -1,0 +1,14 @@
+First Way of including React in the project:
+
+Get the CDN link & put links into the project
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+What is CDN ?
+
+What is crossorigin argument in script tag?
+
+
+ReactElement is nothing but it's a object. This object convert into HTML which browser understands.
+
+
