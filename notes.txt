@@ -12,3 +12,43 @@ What is crossorigin argument in script tag?
 ReactElement is nothing but it's a object. This object convert into HTML which browser understands.
 
 
+There are two type of dependencies :
+1. Dev : It's require at the development face.
+2. Normal : Used in prod.
+
+Transitive Dependencies: When a module has dependencies, and those dependencies have their own dependencies, these are called transitive dependencies.
+
+This means that a module indirectly depends on other modules through its direct dependencies. In other words, if module A depends on module B, and module B depends on module C, then module A has a transitive dependency on module C.
+
+Install React
+npm install react
+npm install react-dom
+
+#Parcel
+- Dev Build
+- Local Server
+- HMR = Hot Module Replacement
+- File Watching Alsorith - Written in C++
+- Caching - Faster Builds
+- Image Optimization
+- Minification
+- Bundling
+- Compression
+- Consistent Hashing
+- Code Splitting
+- Differential Bundling - Support older browsers
+- Diagnostic
+- Error Handling
+- https
+- Tree Shaking - remove unused Code
+- Different dev and prod bundles
+
+
+#Parcel run in dev module
+
+npx parcel index.HTML
+
+#Parcel build for prod
+
+npx parcel build index.html
+
