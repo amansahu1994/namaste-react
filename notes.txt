@@ -52,3 +52,9 @@ npx parcel index.HTML
 
 npx parcel build index.html
 
+# JSX - is not HTML in JS, It's HTML or XML like syntax(only looks like).
+JSX transpiled before it reaches the JS - Parcel - Babel takes the jsx & convert into js.
+
+// React Component
+// Class Based Component - OLD Approach
+// Functional Component - NEW Approach => A js function that returns a jsx is a functional component.

@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "This is Namaste React by Aman Sahu",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "author": "Aman Sahu",
