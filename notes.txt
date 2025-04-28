@@ -58,3 +58,26 @@ JSX transpiled before it reaches the JS - Parcel - Babel takes the jsx & convert
 // React Component
 // Class Based Component - OLD Approach
 // Functional Component - NEW Approach => A js function that returns a jsx is a functional component.
+
+//Props 
+Passing props to a component are nothing but it's like passing argument to a function.
+
+//Exports
+There are two types of Export/Import : 
+    - Default Export/Import
+    Ex : export default Component;
+        import Component from "Path"
+
+    - Named Export/Import
+    Ex : export const Component;
+        import {Component} from "path"
+
+//React Hooks
+Normal JS utility functions
+    - useState() : Whenever a State variable updates, React will re-render the component. 
+    - useEffect() : 
+
+Reconciliation (Whenever something updates on UI is called Reconciliation)
+# React uses Reconciliation Algorithm which is also known as React Fiber 
+* React creates virtual DOM : Virtual DOM is a representation of actual DOM, it's nothing but it's normal js object.
+* Diff Algorithm findout difference between Old Virtual DOM & New Virtual DOM, Update the DOM
