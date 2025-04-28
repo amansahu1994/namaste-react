@@ -78,6 +78,9 @@ Normal JS utility functions
     - useEffect() : 
 
 Reconciliation (Whenever something updates on UI is called Reconciliation)
+Whenever state variables updates, react triggers a Reconciliation cycle(re-renders the component)
 # React uses Reconciliation Algorithm which is also known as React Fiber 
 * React creates virtual DOM : Virtual DOM is a representation of actual DOM, it's nothing but it's normal js object.
 * Diff Algorithm findout difference between Old Virtual DOM & New Virtual DOM, Update the DOM
+
+//Conditional Rendering : Rendering component based on the condition.
